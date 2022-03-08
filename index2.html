@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATM Template</title>
+    <!-- <link rel="stylesheet" href="/index.html"> -->
+    <!-- <link rel="stylesheet" href="/atm.css"> -->
+</head>
+<body>
+    <div id="atm" >
+       <h1 id="enter">Please use the keypad to Enter your PIN and press ENTER to continue</h1>
+        <input id="pin" type="password" placeholder="****" maxlength="4" required >
+        <button id="enter2"><a  href="/index.html">Enter</a></button>
+    </div>
+        <!-- <div id="number"> -->
+            <!-- <button id="no" onclick="num(1)">1</button>
+            <button id="no" onclick="num(2)">2</button>
+            <button id="no" onclick="num(3)">3</button>
+            <button id="no" onclick="num(4)">4</button>
+            <button id="no" onclick="num(5)">5</button>
+            <button id="no" onclick="num(6)">6</button>
+            <button id="no" onclick="num(7)">7</button>
+            <button id="no" onclick="num(8)">8</button>
+            <button id="no" onclick="num(9)">9</button>
+            <button id="no" onclick="num(0)">0</button> -->
+            <!-- <button id="del" onclick="clear()">Delete</button> -->
+            <!-- <button><a id="enter2" href="/ATM1.html">Enter</a></button> -->
+        <!-- </div> -->
+        <!-- <button ><a href="/atm2.html"></a> Enter</button> -->
+        
+       
+       
+       
+    
+    <!-- <script>
+        document.getElementById(pin)
+        let num = (val) =>{
+            pin.value = pin.value + val
+        }
+        function clear(){
+            pin.value = slice ('0, -1')
+        }
+        
+    </script> -->
+
+
+
+    <style>
+
+#atm{
+    margin: 5vh auto;
+    width: 90vh;
+    height: 90vh;
+    background-image: url(/img/First_Bank_of_Nigeria_logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border: groove 10vh blue; */
+    border: groove 10px  blue;
+
+    
+}
+#enter{
+    transform: translate(14vh,20vh);
+    width: 60%;
+    height: 30%;
+    font-size: 23px;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 1.2;
+    color: rgb(214, 224, 233);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#number{
+    padding: 3vh;
+    /* padding: 10px 30px 10px 30px; */
+    line-height: 5vh;
+    margin: -10vh auto;
+    width: 40%;
+    height:50%;
+    border: thick solid;
+    /* justify-content: center; */
+}
+#no{
+    transform: translate(0,1vh);
+    width: 10vh;
+    height: 10vh;
+    font-size: 3em;
+    font-weight: bolder;
+    border-radius: 1em;
+}
+#del{
+    transform: translate(0,1vh);
+    width: 20vh;
+    height: 10vh;
+    border-radius: 1em;
+}
+#pin{
+    transform:translate(30vh,5vh) ;
+    width: 30%;
+    height: 10%;
+    background-color: #11356b;
+    font-size: 3em;
+    text-align: center;
+}
+#enter2{
+    /* text-decoration: none; */
+    /* padding: 5vh 5vh 5vh 5vh; */
+    transform: translate(0,25vh);
+    border: groove 20px;
+    width: 30vh;
+    background-color: blue;
+    /* color: aliceblue; */
+    height: 20vh;
+}
+#enter2 a{
+    color: aliceblue;
+    font-size: 3em;
+    text-decoration: none;
+}
+
+
+
+
+    </style>
+</body>
+</html>
